@@ -38,7 +38,7 @@
 }
 
 
-/* Navbar */
+/* Navbar Section */
 .nav-bar {
     top: 0;
     position: sticky;
@@ -47,31 +47,79 @@
 .navbar {
     background-color: #000;
 }
-
 .navbar .fa-bars {
     color: #fff;
     font-size: 1.5rem;
 }
-
 .navbar-toggler{
     outline: none !important;
 }
 .nav-link {
     color: #fff !important;
 }
-
 .navbar-nav {
     float: right;
     text-align: right;
 }
 
-/* About */
-.about {
-    padding: 100px 0 50px 0;
-}
 
+/* About */
+#user-info {
+    width: 80%;
+    margin: auto;
+}
+.about {
+    padding: 100px 0 60px;
+}
 .profile-img {
     height: 240px;
+}
+
+
+/* social-media-links */
+#socials {
+    height: 0;
+}
+.social-media-icons {
+    top: 30%;
+    transform: translateY(-90%);
+    position: sticky;
+    z-index: 1;
+    width: 80px;
+}
+.social-media-icons ul {
+    padding: initial;
+}
+.social-media-icons ul li {
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    background: #000;
+}
+li a {
+    font-size: 1rem;
+    color: #fff;
+}
+.social-media-icons ul li:hover {
+    padding-left: 30px;
+    width: 60px;
+    color: gold;
+    transition: 0.4s;
+}
+li a:hover {
+    color: gold;
+
+}
+
+
+/* Skills Section */
+#skills {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
 }
 
 .progress {
@@ -84,40 +132,16 @@
     background: #000 !important;
 }
 
-/* social-media-links */
-.social-media-icons {
-    top: 40%;
-    transform: translateY(-50%);
-    position: sticky;
-    z-index: 1;
-    width: 100px;
-}
 
-.social-media-icons ul {
-    padding: initial;
-}
 
-.social-media-icons ul li {
-    height: 40px;
-    width: 40px;
-    list-style-type: none;
-    padding-left: 12px;
-    padding-top: 6px;
-    margin-top: 5px;
-    background: #000;
-}
-li a {
-    color: #fff;
-}
-
-.social-media-icons ul li:hover {
-    padding-left: 30px;
-    width: 80px;
-    transition: 0.5s;
-}
 
 
 /* Experience / Resume */
+#resume {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
 
 .resume {
     padding-top: 20px;
@@ -179,7 +203,10 @@ li a {
 
 
 /* contact section */
-
+#contact {
+    /* width: 80%; */
+    margin: auto;
+}
 .contact {
     padding-top: 50px;
     background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.5)), url("/images/bg-bike.jpg");
