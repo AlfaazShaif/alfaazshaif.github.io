@@ -196,7 +196,12 @@ li a {
 
 .contact .col-md-4 {
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.contact .col-md-4 a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .contact .btn {
