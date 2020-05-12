@@ -29,8 +29,9 @@
     font-weight: bold;
     margin: 10px;
 }
-.user-box p{
-    color: #fff; 
+.user-box h5{
+    color: #fff;
+    text-align: center; 
 }
 
 
