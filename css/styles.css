@@ -85,7 +85,7 @@
     transform: translateY(-90%);
     position: sticky;
     z-index: 1;
-    width: 70px;
+    width: 80px;
 }
 .social-media-icons ul {
     padding: initial;
@@ -104,9 +104,9 @@ li a {
     color: #fff;
 }
 .social-media-icons ul li:hover {
-    padding-left: 30px;
+    padding-left: 25px;
     width: 60px;
-    color: gold;
+    background: white;
     transition: 0.5s;
     transform: scale(1.1);
 
@@ -116,7 +116,7 @@ li a {
 }
 
 li a:hover {
-    color: gold;
+    color: black;
 }
 
 
