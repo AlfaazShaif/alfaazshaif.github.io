@@ -107,11 +107,16 @@ li a {
     padding-left: 30px;
     width: 60px;
     color: gold;
-    transition: 0.4s;
+    transition: 0.5s;
+    transform: scale(1.1);
+
 }
+.sticky-icon {
+    transform: scale(1.5);
+}
+
 li a:hover {
     color: gold;
-
 }
 
 
@@ -237,7 +242,6 @@ li a:hover {
     text-decoration: none;
     color: white;
 }
-
 
 .contact-icon{
     font-size: 3rem;
