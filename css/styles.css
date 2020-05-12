@@ -238,8 +238,13 @@ li a:hover {
     color: white;
 }
 
+
+.contact-icon{
+    font-size: 3rem;
+}
+
 .contact-icon:hover {
-    transform: scale(2.5);
+    transform: scale(1.5);
     transition: 0.3s;
 
 }
