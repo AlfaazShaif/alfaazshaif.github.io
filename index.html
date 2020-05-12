@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,10 +24,9 @@
     <section id="header">
         <div class="container text-center">
             <div class="user-box">
-                <img src="images/ProfileImg.jpg" alt="ProfilePhoto">
-                <h1>Abdul Quadir</h1>
-                <h5>developer | pasonate learner | photogarpher</h5>
-                <!-- <p>developer | pasonate learner | photogarpher</p> -->
+                <!-- <img src="images/ProfileImg.jpg" alt="ProfilePhoto"> -->
+                <h2>Abdul Quadir</h2>
+                <h5>developer | passionate learner | photogarpher</h5>
             </div>
         </div>
     </section>
@@ -49,11 +49,11 @@
                         <a class="nav-link" href="#user-info">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
-                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li> -->
                 </ul>
             </div>
         </nav>
@@ -64,15 +64,16 @@
     <section id="user-info">
         <div class="about container" id="about">
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-md-4 text-center">
                     <img src="/images/ProfileImg.jpg" alt="" class="profile-img">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <h4>it all started years ago...</h4>
                     <p> hahaha! nothing as such, I'm just kidding.<br>
-                        A self taught developer who happended to be a pasonate learner.<br>
-                        Developer, a fancy way to say <i>"I can do certain things"</i> and frankly speaking,<br>
-                        with little dedication, <strong>anyone can...</strong>
+                        A self taught developer who happended to be passionate about learning new things.<br>
+                        
+                        <!-- <strong>Developer</strong>, a fancy way to say <i>"I can do certain things"</i> and frankly speaking,<br>
+                        <i>with little dedication, <strong>anyone can...</strong></i> -->
                     </p>
                 </div>
             </div>
@@ -80,30 +81,29 @@
     </section>
 
 
-    <!-- Social media links -->
+    <!-- Social media sticky-links -->
         <div class="social-media-icons">
             <ul>
                 <li>
-                    <a href="#"> <i class="fab fa-linkedin"></i>
+                    <a href="//linkedin.com/in/abdulquadir01"> <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#"> <i class="fab fa-github"></i>
+                    <a href="//github.com/AlfaazShaif"> <i class="fab fa-github"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#"> <i class="fab fa-instagram"></i>
+                    <a href="//hackerrank.com/AbdulQuadir"> <i class="fab fa-hackerrank"></i>
                     </a>
                 </li>
             </ul>
         </div>
 
-
     <!-- Skill section -->
     <section id="skills">
         <h2 class="text-center">Skills</h2>
         <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-md-4 text-center">
                 <div class="skils-bar">
                     <p>React | Redux</p>
                     <div class="progress">
@@ -113,22 +113,22 @@
                     <div class="progress">
                         <div class="progress-bar" style="width: 30%;">30%</div>
                     </div>
-                    <p>MVC </p>
+                    <p>MongoDB </p>
                     <div class="progress">
                         <div class="progress-bar" style="width: 30%;">30%</div>
                     </div>
-                    <p>MongoDB</p>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 33%;">33%</div>
-                    </div>
                     <p>HTML | CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">60%</div>
+                    </div>
+                    <p>Bootstrap
                     <div class="progress">
                         <div class="progress-bar" style="width: 60%;">60%</div>
                     </div>
                 </div>
             </div>
             
-            <div class="col-md-6 text-center">
+            <div class="col-md-4 text-center">
                 <div class="skils-bar">
                     <p>JavaScript</p>
                     <div class="progress">
@@ -152,11 +152,34 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 text-center">
+                <div class="skils-bar">
+                    <p>Git/GitHub</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 60%;">60%</div>
+                    </div>
+                    <p>Linux | Windows</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                    <p>DS & Algo.</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 66%;">66%</div>
+                    </div>
+                    <p>Photoshop</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 40%;">40%</div>
+                    </div>
+                    <p>Photography</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 100%;">beginer / hobby</div>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
         </div>
     </section>
-
 
     <!-- Experiences / Resume -->
     <section id="resume">
@@ -167,25 +190,23 @@
                     <ul class="timeline">
                         <li>
                             <h5><span>October, 2019</span></h5>
-                            <p>My Journal!<br>
-                                A local website to manage my day to day life event.<br>
-                                <b>Personal Project</b> <br>
-                                <b>Duration:</b> 3 weeks <br>
+                            <p>Github Page!<br>
+                                Online resume.<br>
+                                <strong>Personal Project | 2 weeks </strong>>
                             </p>
                         </li>
                         <li>
-                            <h5><span>July, 2019</span></h5>
-                            <p>Tinder look a like landing page! <br>
-                                <b>Personal Project</b> <br>
-                                <b>Duration:</b> 2 weeks <br>
+                            <h5><span>June-July, 2019</span></h5>
+                            <p>My Journal!<br>
+                                A local website to manage my day to day life event.<br>
+                                <strong>Personal Project | 2 weeks </strong>
                             </p>
                         </li>
                         <li>
                             <h5><span>June, 2019</span></h5>
-                            <p>
-                                Designed a soptify look a like landing page! <br>
-                                <i>Personal Project</i> <br>
-                                <b>Duration:</b> 1 week <br>
+                            <p> 
+                                Designed a Spotify look alike landing page!<br>                           
+                                <strong>Personal Project | 2 days</strong>
                             </p>
                         </li>
                         <li>
@@ -194,8 +215,7 @@
                                 Designed/created a campus network infrastructure based on LAN and setuped a Local Server.<br>
                                 Worked with Routers, Hubs, Switches, wifi-adapters</br>
                                 <!-- Used Cisco Packet Tracer for designing the topology & code network codes.<br> -->
-                                <b>Internship Project under MSME Toolroom Kolkata</b> <br>
-                                <b>Duration:</b> 4 weeks <br>
+                                <strong> Internship Project under MSME Toolroom Kolkata | 4 weeks </strong>
                             </p>
                         </li>
                     </ul>
@@ -232,45 +252,48 @@
         </div>
     </section>
 
-
     <!-- Contact -->
     <section id="contact">
         <div class="contact">
             <div class="container text-center">
                 <h2>Contact Me</h2>
                 <p class="text-center">
-                    There is a big world out there, let's connect and do something awesome
+                    It's a big world out there, let's connect and do something awesome
                 </p>
 
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
-                        <a href="github.com/AlfaazShaif">
-                            Github
-                            <i class="fa fa-github"></i>
+                        <a href="//github.com/AlfaazShaif" target="_blank">
+                            <i class="fab fa-github contact-icon"></i>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <a href="//linkedin.com/abdulquadir01">
-                            LinkedIn
-                            <i class="fa fa-linkedin"></i>
+                        <a  class="contact-link" href="//linkedin.com/in/abdulquadir01" target="_blank">
+                            <i class="fab fa-linkedin contact-icon"></i>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <a href="mailto:slanger125@hotmail.com" target="_blank">
-                            Mail
-                            <i class="fab fa-envelope"></i>
+                        <a class="contact-link" href="mailto:slanger125@hotmail.com" target="_blank">
+                            <i class="fa fa-envelope contact-icon"></i>
                         </a>
                     </div>
                 </div>
                 <button class="btn btn-primary">
+                    <a class="download-btn" href="/resources/AbdulQuadir_Resume_17-1-20.pdf" target="__blank">
                     <i class="fa fa-download"></i> Resume
+                </a>
                 </button>
             </div>
         </div>
     </section>
+
     <!-- Footer -->
     <footer class="footer text-center">
-        <p>made with <i class="fa fa-heart-o"></i> by Abdul Quadir</p>
+        <p>
+            made with <i class="fa fa-heart-o"></i> by Abdul Quadir <br>
+            <small>Copyright © Abdul Quadir 2020</small><br>
+            <!-- <small>last updated on 5th,May</small> -->
+        </p>
     </footer>
 </body>
 
