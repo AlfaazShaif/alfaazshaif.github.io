@@ -16,7 +16,7 @@
 }
 .user-box {
     top: 90%;
-    left: 25%;
+    left: 30%;
     /* left: 50%; */
     transform: translate(-50%, -50%);
     position: absolute;
@@ -124,7 +124,7 @@ li a:hover {
 #skills {
     width: 90%;
     margin: auto;
-    padding: 60px 0;
+    padding: 60px 0 10px 0;
 }
 #skills .row {
     width: 90%;
@@ -139,12 +139,22 @@ li a:hover {
     background: #000 !important;
 }
 
+/* post-script-part */
+.post-script{
+    text-align: center;
+    padding: 0;
+}
+.post-script__para{
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
 
 /* Work / Resume */
 #resume {
     width: 90%;
     margin: auto;
-    padding: 60px 0;
+    padding: 0px 0;
     list-style: none;
 }
 .resume {
