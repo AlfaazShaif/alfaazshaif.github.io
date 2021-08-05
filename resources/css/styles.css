@@ -281,10 +281,7 @@ li a:hover {
 /* Footer Section */
 .footer {
     background: #000;
-    height: 80px;
+    height: 50px;
     color: #fff;
     padding-top: 10px;
-}
-.fa-heart-o{
-    color: red;
 }
